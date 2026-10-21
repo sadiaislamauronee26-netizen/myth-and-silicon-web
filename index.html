@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myth & Silicon | Shakespeare's Hamlet Visual Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="brand">
+            <img src="assets/logo.png.jpg" alt="Myth and Silicon Logo" class="nav-logo">
+            <span class="brand-text">MYTH & SILICON</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Genesis</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reflection">Reflection</a></li>
+            <li><a href="#gallery">Hamlet Series</a></li>
+            <li><a href="#motion">Living Canvas</a></li>
+            <li><a href="#pipeline">Tech Pipeline</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">SADIA ISLAM AURONEE PRESENTS</span>
+            <h1 class="main-title">MYTH & SILICON</h1>
+            <p class="hero-desc">A Visual Synthesis of Shakespeare’s Hamlet & Artificial Intelligence</p>
+            <div class="hero-cta">
+                <a href="#gallery" class="btn-primary">EXPLORE THE SERIES</a>
+                <a href="#reflection" class="btn-secondary">LITERARY REFLECTION</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About The Creator Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="sub-label">ACADEMIC & CREATIVE VISION</span>
+                <h2>About The Creator</h2>
+                <p>Where literary analysis meets computational creativity</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Sadia Islam Auronee</h3>
+                <p class="creator-role">English Literature Scholar & Generative AI Specialist</p>
+                <p class="creator-badges">AI Creator &bull; Designer &bull; Developer &bull; AI Enthusiast</p>
+                <p class="academic-affiliation">First-Year Undergraduate, Department of English, Govt. Rajendra College
+                </p>
+
+                <div class="divider"></div>
+
+                <p class="bio-narrative">
+                    Studying in the Department of English (1st Year) at Govt. Rajendra College, I dedicate my work to
+                    synthesizing classical English dramatic texts with modern generative intelligence. <em>Myth &
+                        Silicon</em> represents an exploration into Shakespeare's <em>The Tragedy of Hamlet</em>,
+                    translating gothic psychological depth into cinematic visual sequences and atmospheric motion
+                    vignettes.
+                </p>
+
+                <div class="creator-contact">
+                    <a href="https://github.com/sadiaislamauronee26-netizen" target="_blank" class="btn-link">GitHub
+                        Repository &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curator's Literary Reflection Section -->
+    <section id="reflection" class="reflection-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="sub-label">DIRECTOR'S COMMENTARY</span>
+                <h2>Curator's Literary Reflection</h2>
+                <p>An existential dissection of Shakespeare's masterpiece</p>
+            </div>
+
+            <div class="reflection-box">
+                <span class="quote-mark">“</span>
+
+                <!-- বাংলা বিশ্লেষণ -->
+                <p class="reflection-bn">
+                    <span class="dropcap">শে</span>ক্সপিয়ারের হ্যামলেট শুধু প্রতিশোধের গল্প নয়, মানুষের মনের গভীর
+                    দ্বিধাদ্বন্দ্ব আর কষ্টের এক নিখুঁত ছবি। এই প্রজেক্টের ছবি ও ভিডিওতে দুর্গের ঠান্ডা পরিবেশ এবং রাতের
+                    কুয়াশা দিয়ে হ্যামলেটের ভেতরের অনিশ্চয়তা ও সিদ্ধান্তহীনতাকে ফুটিয়ে তোলা হয়েছে। এআই প্রযুক্তির
+                    সাহায্যে সাহিত্যের সেই পুরোনো একাকীত্বকে জীবন্ত করে তোলাই আমার মূল লক্ষ্য।
+                </p>
+
+                <div class="reflection-separator"></div>
+
+                <!-- ইংরেজি ভাবার্থ -->
+                <p class="reflection-en">
+                    "Shakespeare’s <em>Hamlet</em> is more than just a revenge story; it shows the deep conflict and
+                    pain of the human mind. In this project, the cold castle and dark mist reflect Hamlet’s loneliness
+                    and doubt. My goal is to use AI to bring this classic literary story to life."
+                </p>
+
+                <div class="reflection-footer">
+                    <span class="sign-name">Sadia Islam Auronee</span>
+                    <span class="sign-tag">Curator & Visual Director</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Hamlet Series Gallery / Slider -->
+    <section id="gallery" class="gallery-section">
+        <div class="section-header">
+            <span class="sub-label">CURATED DRAMA SERIES</span>
+            <h2>The Hamlet Series</h2>
+            <p>Sequential visual breakdown of key dramatic acts</p>
+        </div>
+
+        <div class="slider-container">
+            <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous Slide">&#10094;</button>
+
+            <div class="slider-track" id="sliderTrack">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="assets/hamlet-1.jpg" alt="Act I: The Weight of Existence">
+                    <div class="slide-caption">
+                        <span class="act-tag">ACT I &bull; THE WEIGHT OF EXISTENCE</span>
+                        <p class="slide-theme"><strong>Theme:</strong> Melancholia & Existential Paralysis</p>
+                        <p class="slide-note">Solitary contemplation upon the freezing ramparts of Elsinore. The cold
+                            chiaroscuro lighting and drifting fog visually capture Hamlet’s profound indecision and
+                            mental burden before the specter of truth.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="assets/hamlet-2.jpg" alt="Act I: Shadows of Vengeance">
+                    <div class="slide-caption">
+                        <span class="act-tag">ACT I &bull; SHADOWS OF VENGEANCE</span>
+                        <p class="slide-theme"><strong>Theme:</strong> Moral Ambiguity & Supernatural Dread</p>
+                        <p class="slide-note">The spectral encounter with King Hamlet's ghost in the misty courtyard.
+                            High contrast shadows and ethereal haze embody the fragile boundary between justice and
+                            destructive madness.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="assets/hamlet-3.jpg" alt="Act IV: Drowned in Sorrow">
+                    <div class="slide-caption">
+                        <span class="act-tag">ACT IV &bull; DROWNED IN SORROW</span>
+                        <p class="slide-theme"><strong>Theme:</strong> Fragility, Grief & Lost Innocence</p>
+                        <p class="slide-note">Ophelia drifting down the weeping brook, surrounded by floating wild
+                            petals. Soft, melancholic water reflections mirror the tragic surrender of innocence to an
+                            unyielding reality.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="assets/hamlet-4.jpg" alt="Act V: Meditation on Dust">
+                    <div class="slide-caption">
+                        <span class="act-tag">ACT V &bull; MEDITATION ON DUST</span>
+                        <p class="slide-theme"><strong>Theme:</strong> Mortality & The Absurdity of Power</p>
+                        <p class="slide-note">Holding Yorick’s skull in the windswept graveyard. The earthy, muted
+                            palette strips away all regal vanity, reflecting Hamlet’s ultimate realization of life’s
+                            fleeting absurdity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn next-btn" id="nextBtn" aria-label="Next Slide">&#10094;</button>
+        </div>
+    </section>
+
+    <!-- Living Canvas (Video Motion Showcase) -->
+    <section id="motion" class="motion-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="sub-label">CINEMATIC MOTION SYNTHESIS</span>
+                <h2>Living Canvas</h2>
+                <p>Subtle atmospheric motion vignettes breathing life into Shakespearean tragedy</p>
+            </div>
+
+            <div class="video-grid">
+                <div class="video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/hamlet-video-1.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-info">
+                        <h3>The Melancholy Watch</h3>
+                        <p>Cold sea wind gently swaying through the dark ramparts of Elsinore under perpetual midnight.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/hamlet-video-2.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-info">
+                        <h3>Ophelia's Descent</h3>
+                        <p>Gentle water ripples and floating floral drift through the dark woodland currents.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative & Technical Pipeline -->
+    <section id="pipeline" class="pipeline-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="sub-label">BEHIND THE SCENES</span>
+                <h2>The Creative & Technical Pipeline</h2>
+                <p>How Shakespearean dramaturgy was translated into an interactive web exhibition</p>
+            </div>
+
+            <div class="pipeline-grid">
+                <!-- Visual & Motion Pipeline -->
+                <div class="pipeline-card">
+                    <div class="card-icon">&#9670;</div>
+                    <h3>Generative Direction</h3>
+                    <ul class="pipeline-list">
+                        <li>
+                            <strong>Leonardo AI:</strong> High-fidelity concept rendering, chiaroscuro lighting, and
+                            gothic costume consistency.
+                        </li>
+                        <li>
+                            <strong>MiniMax:</strong> Atmospheric motion loops, subtle sea mist physics, and cinematic
+                            camera panning.
+                        </li>
+                        <li>
+                            <strong>Prompt Architecture:</strong> Iterative negative prompting, tonal control, and
+                            classical oil painting textures.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Technical & Web Pipeline -->
+                <div class="pipeline-card">
+                    <div class="card-icon">&#9670;</div>
+                    <h3>Cognitive & Dev Engine</h3>
+                    <ul class="pipeline-list">
+                        <li>
+                            <strong>Gemini:</strong> Dramaturgical co-pilot, literary scene breakdown, and semantic
+                            frontend scaffolding.
+                        </li>
+                        <li>
+                            <strong>Google Flow:</strong> Multimodal asset orchestration and creative workflow
+                            structuring.
+                        </li>
+                        <li>
+                            <strong>Frontend Toolchain:</strong> Semantic HTML5, dark luxury CSS3, Vanilla ES6
+                            JavaScript, and Antigravity IDE.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Myth & Silicon &bull; Curated and Developed by Sadia Islam Auronee.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html><img src="assets/logo.png.jpg" alt="Myth and Silicon Logo" class="nav-logo">
